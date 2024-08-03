@@ -1,0 +1,15 @@
+.header {
+  &-container {
+    outline: 5px solid rgba(247, 200, 9, 0.589);
+    outline-offset: -5px;
+    @include flex;
+  }
+}
+
+.nav-ist {
+  @include flex;
+
+  @media (max-width: ($width_tablet - 1px)) {
+    display: none;
+  }
+}

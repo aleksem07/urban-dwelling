@@ -1,0 +1,14 @@
+{
+  "template": "layouts/layout.pug",
+
+  "langRU": "ru",
+  "langEN": "en-US",
+  "faviconPath": "logo.png",
+  "author": "https://t.me/aleksem07",
+  "description": "Desc project",
+  "title": "Главная",
+
+  "h1": "Магазин электроники Urban Dwelling",
+
+  "nav": "second"
+}
