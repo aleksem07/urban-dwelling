@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "products/super-dzs.jpg",
+      "name": "SuperDZS Аэрогриль efRP6iSi",
+      "price": "3 040",
+      "sale": false
+    },
+    {
+      "id": 2,
+      "img": "products/arg.jpg",
+      "name": "Линейный светильник ARG",
+      "price": "6 700",
+      "sale": true
+    },
+    {
+      "id": 3,
+      "img": "products/light.jpg",
+      "name": "Светодиодный светильник ",
+      "price": "6 060",
+      "sale": true
+    },
+    {
+      "id": 4,
+      "img": "products/super-dzs.jpg",
+      "name": "SuperDZS Аэрогриль efRP6iSi",
+      "price": "3 040",
+      "sale": false
+    },
+    {
+      "id": 5,
+      "img": "products/arg.jpg",
+      "name": "Линейный светильник ARG",
+      "price": "6 700",
+      "sale": true
+    },
+    {
+      "id": 6,
+      "img": "products/light.jpg",
+      "name": "Светодиодный светильник ",
+      "price": "6 060",
+      "sale": true
+    },
+    {
+      "id": 7,
+      "img": "products/arg.jpg",
+      "name": "Линейный светильник ARG",
+      "price": "6 700",
+      "sale": true
+    },
+    {
+      "id": 1,
+      "img": "products/super-dzs.jpg",
+      "name": "SuperDZS Аэрогриль efRP6iSi",
+      "price": "3 040",
+      "sale": false
+    }
+  ]
+}

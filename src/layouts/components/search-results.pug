@@ -1,0 +1,6 @@
+section.search 
+  h2.search-title Результаты поиска
+  each product in products
+    img(src=product.img)
+    p= product.name
+    p= `${product.price} ₽`
