@@ -1,7 +1,7 @@
 .header {
+  width: 100%;
+
   &-container {
-    outline: 5px solid rgba(247, 200, 9, 0.589);
-    outline-offset: -5px;
     @include flex;
   }
 }

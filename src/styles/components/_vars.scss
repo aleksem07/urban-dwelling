@@ -2,6 +2,17 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:regular&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Inter:regular&display=swap);
 
+@font-face {
+  font-family: "Korataki";
+  src:
+    local("Korataki"),
+    url("../assets/fonts/korataki/korataki.woff2") format("woff2"),
+    url("../assets/fonts/korataki/korataki.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 $width-desktop-xl: 1920px;
 $width-desktop-s: 1600px;
 $width-tablet: 770px;
@@ -14,3 +25,14 @@ $font-fourth: "Inter", sans-serif;
 
 $color-dark: #000000;
 $color-light: #ffffff;
+$color-title: #231815;
+
+$fz-10px: 0.625rem;
+$fz-12px: 0.75rem;
+$fz-14px: 0.875rem;
+$fz-16px: 1rem;
+$fz-20px: 1.25rem;
+$fz-24px: 1.5rem;
+$fz-30px: 1.875rem;
+$fz-36px: 2.25rem;
+$fz-72px: 4.5rem;
