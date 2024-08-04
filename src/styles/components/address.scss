@@ -1,3 +1,8 @@
 .address {
   margin-bottom: 32px;
+
+  @media (min-width: ($width-tablet)) {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+  }
 }

@@ -1,5 +1,11 @@
 .services {
   margin-bottom: 32px;
+
+  @media (min-width: ($width-tablet)) {
+    padding-left: 28px;
+    grid-column: -1 / -3;
+    grid-row: 2 / 4;
+  }
 }
 
 .footer .services-title {
@@ -10,4 +16,8 @@
   @include flex(flex-start, flex-start);
   flex-direction: column;
   row-gap: 17px;
+
+  @media (min-width: ($width-tablet)) {
+    row-gap: 28px;
+  }
 }

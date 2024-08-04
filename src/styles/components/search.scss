@@ -27,6 +27,7 @@
 
   @media (min-width: ($width-tablet)) {
     column-gap: 40px;
+    row-gap: 45px;
   }
 }
 
@@ -35,10 +36,55 @@
   flex-direction: column;
   row-gap: 13px;
   flex-basis: calc(50% - 5.5px);
+  position: relative;
 
   @media (min-width: ($width-tablet)) {
     flex-basis: calc(50% - 20px);
+    row-gap: 18px;
   }
+
+  &:hover {
+    &::before {
+      content: "Подробнее";
+      padding-block: 12px;
+      position: absolute;
+      width: 81%;
+      bottom: 115px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $color-accent;
+      text-align: center;
+      font-weight: 600;
+      line-height: 140%;
+      color: $color-light;
+      border-radius: 100px;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    &::after {
+      content: "";
+      padding-block: 44px;
+      position: absolute;
+      width: 100%;
+      bottom: 92px;
+      background-color: $color-light--070;
+    }
+  }
+}
+
+.search-item-promotion {
+  padding-block: 8px;
+  padding-inline: 39.5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  background-color: $color-title;
+  border-radius: 100px;
 }
 
 .search-item-title {

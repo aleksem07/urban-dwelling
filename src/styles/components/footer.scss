@@ -10,6 +10,23 @@
     font-weight: 700;
     font-size: $fz-18px;
     line-height: 100%;
+
+    @media (min-width: ($width-tablet)) {
+      margin-bottom: 23px;
+    }
+  }
+
+  @media (min-width: ($width-tablet)) {
+    padding-block: 48px;
+  }
+}
+
+.footer-container {
+  @media (min-width: ($width-tablet)) {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, auto);
+    row-gap: 2.5px;
   }
 }
 
@@ -17,6 +34,12 @@
   font-family: $font-secondary;
   line-height: 130%;
   color: $color-gray;
+
+  @media (min-width: ($width-tablet)) {
+    grid-column: -1 / -6;
+    grid-row: 4 / 5;
+    padding-left: 40px;
+  }
 
   & a {
     cursor: pointer;

@@ -3,6 +3,8 @@ section.search
   ul.search-list
     each product in products
       li.search-item
+        if product.sale
+          div.search-item-promotion Акция
         img.search-item-img(src=product.img)
         p.search-item-title= product.name
         if product.sale

@@ -3,6 +3,11 @@
   @include flex(space-between, flex-start);
   flex-direction: column;
   color: $color-gray;
+
+  @media (min-width: ($width-tablet)) {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
 }
 
 .links-offer {

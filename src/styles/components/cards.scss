@@ -1,5 +1,12 @@
 .cards {
   margin-bottom: 30px;
+
+  @media (min-width: ($width-tablet)) {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    margin-bottom: 0;
+    align-self: center;
+  }
 }
 
 .cards-list {
