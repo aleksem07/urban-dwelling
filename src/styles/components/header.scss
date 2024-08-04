@@ -9,8 +9,9 @@
 
 .nav-list {
   @include flex(space-between, center);
+  display: none;
 
-  @media (max-width: ($width_tablet - 1px)) {
-    display: none;
+  @media (min-width: ($width-desktop-s)) {
+    display: block;
   }
 }

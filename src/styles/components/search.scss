@@ -1,5 +1,9 @@
 .search {
   padding-top: 39px;
+
+  @media (min-width: ($width-tablet)) {
+    padding-top: 52px;
+  }
 }
 
 .search-title {
@@ -8,6 +12,11 @@
   font-size: $fz-24px;
   line-height: 140%;
   color: $color-title;
+
+  @media (min-width: ($width-tablet)) {
+    margin-bottom: 40px;
+    font-size: $fz-32px;
+  }
 }
 
 .search-list {
@@ -15,17 +24,34 @@
   flex-wrap: wrap;
   column-gap: 11px;
   row-gap: 34px;
+
+  @media (min-width: ($width-tablet)) {
+    column-gap: 40px;
+  }
 }
 
 .search-item {
-  max-width: min-content;
   display: flex;
   flex-direction: column;
   row-gap: 13px;
+  flex-basis: calc(50% - 5.5px);
+
+  @media (min-width: ($width-tablet)) {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+.search-item-title {
+  @media (min-width: ($width-tablet)) {
+    font-weight: 700;
+    font-size: $fz-18px;
+    line-height: 140%;
+  }
 }
 
 .search-item-img {
   border-radius: 10px;
+  object-fit: contain;
 }
 
 .sale {
@@ -34,6 +60,12 @@
   line-height: 140%;
   color: $color-title;
   column-gap: 17px;
+
+  @media (min-width: ($width-tablet)) {
+    font-weight: 700;
+    font-size: $fz-22px;
+    line-height: 140%;
+  }
 
   &-price-new {
     color: $color-accent;
@@ -53,6 +85,11 @@
       background-color: $color-gray;
       top: 50%;
       left: 0;
+    }
+
+    @media (min-width: ($width-tablet)) {
+      font-size: $fz-22px;
+      line-height: 140%;
     }
   }
 }

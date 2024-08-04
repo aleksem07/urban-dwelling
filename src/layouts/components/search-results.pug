@@ -4,7 +4,7 @@ section.search
     each product in products
       li.search-item
         img.search-item-img(src=product.img)
-        p= product.name
+        p.search-item-title= product.name
         if product.sale
           .search-sale.sale
             p.sale-price-new(class='price-new') #{product.price - 1000} ₽

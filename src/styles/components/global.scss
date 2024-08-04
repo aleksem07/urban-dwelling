@@ -15,4 +15,7 @@
   @media screen and (min-width: $width-mobile) {
     margin-inline: $margin-mobile * 2;
   }
+  @media (min-width: ($width-tablet)) {
+    margin-inline: $margin-tablet * 2;
+  }
 }
