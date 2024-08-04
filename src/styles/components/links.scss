@@ -8,6 +8,14 @@
     grid-column: 1 / 4;
     grid-row: 3 / 4;
   }
+
+  @media (min-width: ($width-desktop-s)) {
+    grid-column: -1 / -3;
+    grid-row: 1 / 2;
+    margin-bottom: 0;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
 }
 
 .links-offer {

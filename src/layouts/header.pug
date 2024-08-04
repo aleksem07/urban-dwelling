@@ -2,10 +2,10 @@ header.header
   .header-container
     +logo('header', "#ffffff")
     nav.header-nav.nav
-      
       ul.nav-list
-        - for (var x = 0; x < 4; x++)
-          li.nav-item nav-item 
-          
+        each page in pages
+          li.nav-item
+            a(href="/")= page.toUpperCase()
+
     include /layouts/components/burger.pug
-      
+    include /layouts/components/user-icons.pug

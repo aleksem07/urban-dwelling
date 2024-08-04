@@ -4,6 +4,16 @@
 
   &-container {
     @include flex(space-between, center);
+
+    @media (min-width: ($width-desktop-s)) {
+      column-gap: 13.5%;
+    }
+  }
+}
+
+.nav {
+  @media (min-width: ($width-desktop-s)) {
+    flex: 1;
   }
 }
 
@@ -12,6 +22,6 @@
   display: none;
 
   @media (min-width: ($width-desktop-s)) {
-    display: block;
+    @include flex(space-between, center);
   }
 }

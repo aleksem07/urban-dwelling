@@ -4,6 +4,10 @@
   @media (min-width: ($width-tablet)) {
     padding-top: 52px;
   }
+
+  @media (min-width: ($width-desktop-s)) {
+    padding-top: 61px;
+  }
 }
 
 .search-title {
@@ -17,6 +21,11 @@
     margin-bottom: 40px;
     font-size: $fz-32px;
   }
+
+  @media (min-width: ($width-desktop-s)) {
+    margin-bottom: 40px;
+    font-size: $fz-40px;
+  }
 }
 
 .search-list {
@@ -28,6 +37,11 @@
   @media (min-width: ($width-tablet)) {
     column-gap: 40px;
     row-gap: 45px;
+  }
+
+  @media (min-width: ($width-tablet)) {
+    column-gap: 30px;
+    row-gap: 21px;
   }
 }
 
@@ -41,6 +55,11 @@
   @media (min-width: ($width-tablet)) {
     flex-basis: calc(50% - 20px);
     row-gap: 18px;
+  }
+
+  @media (min-width: ($width-tablet)) {
+    flex-basis: calc(25% - 23px);
+    row-gap: 20px;
   }
 
   &:hover {
@@ -60,6 +79,10 @@
       border-radius: 100px;
       z-index: 1;
       cursor: pointer;
+
+      @media (min-width: ($width-tablet)) {
+        width: 90%;
+      }
     }
 
     &::after {

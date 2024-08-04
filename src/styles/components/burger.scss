@@ -28,4 +28,8 @@
   @media (max-width: ($width_desktop-xl - 1px)) {
     display: block;
   }
+
+  @media (min-width: ($width-desktop-s)) {
+    display: none;
+  }
 }

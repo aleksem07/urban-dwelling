@@ -15,7 +15,12 @@
   @media screen and (min-width: $width-mobile) {
     margin-inline: $margin-mobile * 2;
   }
+
   @media (min-width: ($width-tablet)) {
     margin-inline: $margin-tablet * 2;
+  }
+
+  @media (min-width: ($width-desktop-s)) {
+    margin-inline: $margin-desktop-s * 2;
   }
 }

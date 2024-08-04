@@ -5,4 +5,10 @@
     grid-column: 1 / 4;
     grid-row: 2 / 3;
   }
+
+  @media (min-width: ($width-desktop-s)) {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    margin-left: 34px;
+  }
 }
