@@ -1,9 +1,58 @@
 .search {
+  padding-top: 39px;
 }
 
 .search-title {
+  margin-bottom: 24px;
   font-family: $font-third;
   font-size: $fz-24px;
   line-height: 140%;
   color: $color-title;
+}
+
+.search-list {
+  @include flex(flex-start, flex-start);
+  flex-wrap: wrap;
+  column-gap: 11px;
+  row-gap: 34px;
+}
+
+.search-item {
+  max-width: min-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+
+.search-item-img {
+  border-radius: 10px;
+}
+
+.sale {
+  @include flex(flex-start, baseline);
+  font-weight: 700;
+  line-height: 140%;
+  color: $color-title;
+  column-gap: 17px;
+
+  &-price-new {
+    color: $color-accent;
+  }
+
+  &-price-old {
+    color: $color-gray;
+    position: relative;
+    font-weight: 600;
+    font-size: $fz-14px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      background-color: $color-gray;
+      top: 50%;
+      left: 0;
+    }
+  }
 }

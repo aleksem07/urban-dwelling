@@ -1,0 +1,12 @@
+.contacts {
+  margin-bottom: 8px;
+}
+
+.contacts-list {
+  @include flex(flex-start, baseline);
+  flex-direction: column;
+}
+
+.contacts-item {
+  padding-bottom: 21px;
+}

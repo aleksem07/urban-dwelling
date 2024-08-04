@@ -12,5 +12,7 @@
 }
 
 [class*="container"] {
-  padding-inline: 5%;
+  @media screen and (min-width: $width-mobile) {
+    margin-inline: $margin-mobile * 2;
+  }
 }

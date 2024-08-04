@@ -1,0 +1,10 @@
+.cards {
+  margin-bottom: 30px;
+}
+
+.cards-list {
+  padding-left: 10px;
+  @include flex(flex-start, center);
+  flex-wrap: wrap;
+  column-gap: 33px;
+}

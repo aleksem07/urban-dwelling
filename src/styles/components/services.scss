@@ -1,0 +1,13 @@
+.services {
+  margin-bottom: 32px;
+}
+
+.footer .services-title {
+  margin-bottom: 20px;
+}
+
+.services-list {
+  @include flex(flex-start, flex-start);
+  flex-direction: column;
+  row-gap: 17px;
+}

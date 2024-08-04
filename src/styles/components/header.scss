@@ -1,13 +1,14 @@
 .header {
   width: 100%;
+  padding-block: 11px;
 
   &-container {
-    @include flex;
+    @include flex(space-between, center);
   }
 }
 
 .nav-list {
-  @include flex;
+  @include flex(space-between, center);
 
   @media (max-width: ($width_tablet - 1px)) {
     display: none;

@@ -1,0 +1,10 @@
+.links {
+  margin-bottom: 75px;
+  @include flex(space-between, flex-start);
+  flex-direction: column;
+  color: $color-gray;
+}
+
+.links-offer {
+  margin-bottom: 24px;
+}

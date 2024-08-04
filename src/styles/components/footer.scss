@@ -1,10 +1,25 @@
 .footer {
   margin-top: auto;
+  padding-block: 40px;
   width: 100%;
   background-color: $color-dark-light;
   color: $color-light;
 
-  &-container {
-    // color: rgb(0, 255, 128);
+  & [class*="-title"] {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: $fz-18px;
+    line-height: 100%;
+  }
+}
+
+.footer-info {
+  font-family: $font-secondary;
+  line-height: 130%;
+  color: $color-gray;
+
+  & a {
+    cursor: pointer;
+    text-decoration: underline;
   }
 }

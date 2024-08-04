@@ -18,6 +18,8 @@ $width-desktop-s: 1600px;
 $width-tablet: 770px;
 $width-mobile: 390px;
 
+$margin-mobile: 17px;
+
 $font-primary: "Lato", sans-serif;
 $font-secondary: "Roboto", sans-serif;
 $font-third: "Korataki", sans-serif;
@@ -27,11 +29,14 @@ $color-dark: #000000;
 $color-dark-light: #0c0c0c;
 $color-light: #ffffff;
 $color-title: #231815;
+$color-gray: #808080;
+$color-accent: #e45302;
 
 $fz-10px: 0.625rem;
 $fz-12px: 0.75rem;
 $fz-14px: 0.875rem;
 $fz-16px: 1rem;
+$fz-18px: 1.125rem;
 $fz-20px: 1.25rem;
 $fz-24px: 1.5rem;
 $fz-30px: 1.875rem;

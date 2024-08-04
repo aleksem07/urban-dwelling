@@ -2,20 +2,34 @@
   width: max-content;
   @include flex(flex-start, flex-end);
   column-gap: 10px;
+
+  .footer-container & {
+    margin-bottom: 34px;
+  }
 }
 
 .logo-header-main {
+  width: 37px;
+  height: 36px;
   color: $color-dark;
 }
 
-.logo-header-title {
+.logo-header-name {
+  width: 98px;
+  height: 21px;
   color: $color-title;
 }
 
 .logo-footer-main {
+  padding-left: 5px;
+  padding-top: 1px;
+  width: 47px;
+  height: 47px;
   color: $color-light;
 }
 
-.logo-footer-title {
+.logo-footer-name {
+  width: 124px;
+  height: 27px;
   color: $color-light;
 }
