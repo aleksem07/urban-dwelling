@@ -1,0 +1,21 @@
+.logo {
+  width: max-content;
+  @include flex(flex-start, flex-end);
+  column-gap: 10px;
+}
+
+.logo-header-main {
+  color: $color-dark;
+}
+
+.logo-header-title {
+  color: $color-title;
+}
+
+.logo-footer-main {
+  color: $color-light;
+}
+
+.logo-footer-title {
+  color: $color-light;
+}

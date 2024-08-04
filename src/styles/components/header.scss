@@ -6,7 +6,7 @@
   }
 }
 
-.nav-ist {
+.nav-list {
   @include flex;
 
   @media (max-width: ($width_tablet - 1px)) {

@@ -1,9 +1,9 @@
 header.header
   .header-container
-    include /layouts/components/logo.pug
+    +logo('header', '#ffffff')
     nav.header-nav.nav
       
-      ul.nav-ist
+      ul.nav-list
         - for (var x = 0; x < 4; x++)
           li.nav-item nav-item 
           
