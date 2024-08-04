@@ -12,6 +12,10 @@
     grid-row: 1 / 3;
     padding-left: 10px;
   }
+
+  @media (min-width: ($width-desktop-xl)) {
+    padding-left: 25px;
+  }
 }
 
 .footer .services-title {

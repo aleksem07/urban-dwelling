@@ -9,4 +9,8 @@
   @media (min-width: ($width-tablet)) {
     padding-bottom: 57px;
   }
+
+  @media (min-width: ($width-desktop-xl)) {
+    padding-bottom: 51px;
+  }
 }

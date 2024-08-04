@@ -55,6 +55,11 @@
     width: 57px;
     height: 57px;
   }
+
+  @media (min-width: ($width-desktop-xl)) {
+    width: 63px;
+    height: 63px;
+  }
 }
 
 .logo-footer-name {
@@ -65,5 +70,10 @@
   @media (min-width: ($width-desktop-s)) {
     width: 149px;
     height: 32px;
+  }
+
+  @media (min-width: ($width-desktop-xl)) {
+    width: 164px;
+    height: 36px;
   }
 }

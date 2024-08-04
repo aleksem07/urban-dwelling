@@ -23,4 +23,8 @@
   @media (min-width: ($width-desktop-s)) {
     margin-inline: $margin-desktop-s * 2;
   }
+
+  @media (min-width: ($width-desktop-xl)) {
+    margin-inline: $margin-desktop-xl * 2;
+  }
 }
