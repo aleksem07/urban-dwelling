@@ -97,6 +97,10 @@
       @media (min-width: ($width-tablet)) {
         width: 90%;
       }
+
+      @media (min-width: ($width-desktop-xl)) {
+        width: 80%;
+      }
     }
 
     &::after {

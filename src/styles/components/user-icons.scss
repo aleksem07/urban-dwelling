@@ -15,6 +15,10 @@
 .user-icons-list {
   @include flex(flex-start, center);
   column-gap: 23px;
+
+  @media (min-width: ($width-desktop-xl)) {
+    justify-content: space-between;
+  }
 }
 
 .user-icons-item {
@@ -24,6 +28,58 @@
 .icon-search {
   background-color: $color-title;
   border-radius: 50%;
+
+  @media (min-width: ($width-desktop-xl)) {
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid #f5f5f5;
+    border-radius: 89px;
+  }
+
+  & .icon-search-img {
+    @media (min-width: ($width-desktop-xl)) {
+      display: none;
+    }
+  }
+
+  & .icon-search-input {
+    @media (max-width: ($width-desktop-xl - 1px)) {
+      display: none;
+    }
+  }
+
+  & .icon-search-label {
+    @media (min-width: ($width-desktop-xl)) {
+      position: relative;
+
+      &::before {
+        width: 100%;
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        z-index: 10;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-image: url("/logo.png");
+        color: $color-dark;
+      }
+    }
+  }
+}
+
+.icon-search-input {
+  padding: 8px;
+  width: 170px;
+  border-radius: 89px;
+  border-left: 1px solid $color-light-dark;
+  border-right: 1px solid $color-light-dark;
+  border-top: none;
+  border-bottom: none;
+  color: $color-title;
+  outline: none;
+  position: relative;
 }
 
 .icon-basket {
