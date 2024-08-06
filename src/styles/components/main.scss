@@ -3,11 +3,12 @@
   flex: 1;
   width: 100%;
 
-  &-container {
+  @media (min-width: ($width-tablet)) {
+    padding-bottom: 42px;
   }
 
-  @media (min-width: ($width-tablet)) {
-    padding-bottom: 57px;
+  @media (min-width: ($width-desktop-s)) {
+    padding-bottom: 59px;
   }
 
   @media (min-width: ($width-desktop-xl)) {
