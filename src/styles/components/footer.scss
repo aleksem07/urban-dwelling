@@ -56,6 +56,10 @@
     grid-row: 2 / 3;
     padding-left: 0;
     padding-top: 20px;
+
+    @media (min-width: ($width-desktop-xl)) {
+      max-width: 90%;
+    }
   }
 
   & a {

@@ -8,6 +8,10 @@
     @media (min-width: ($width-desktop-s)) {
       column-gap: 13.5%;
     }
+
+    @media (min-width: ($width-desktop-xl)) {
+      column-gap: 0;
+    }
   }
 }
 
@@ -23,5 +27,17 @@
 
   @media (min-width: ($width-desktop-s)) {
     @include flex(space-between, center);
+  }
+
+  @media (min-width: ($width-desktop-xl)) {
+    padding-left: 13%;
+    justify-content: center;
+    column-gap: 14%;
+  }
+}
+
+.nav-item {
+  @media (min-width: ($width-desktop-xl)) {
+    font-weight: 600;
   }
 }

@@ -51,6 +51,8 @@
   & .icon-search-label {
     @media (min-width: ($width-desktop-xl)) {
       position: relative;
+      display: block;
+      width: 170px;
 
       &::before {
         width: 100%;
@@ -74,8 +76,9 @@
 
 .icon-search-svg {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
 }
 
 .icon-search-input {
@@ -89,6 +92,11 @@
   color: $color-title;
   outline: none;
   position: relative;
+
+  &::placeholder {
+    padding-left: 16px;
+    color: $color-dark;
+  }
 }
 
 .icon-basket {
