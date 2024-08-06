@@ -1,6 +1,12 @@
 @import "./mixins/+.scss";
 @import "./components/+.scss";
 
+html {
+  scroll-behavior: smooth;
+  overflow: overlay;
+  scrollbar-width: thin;
+}
+
 .body {
   margin-inline: auto;
   max-width: $width-desktop-xl;
