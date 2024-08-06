@@ -62,11 +62,20 @@
         top: 50%;
         right: 0;
         transform: translateY(-50%);
-        background-image: url("/logo.png");
         color: $color-dark;
       }
     }
   }
+}
+
+.icon-search-label {
+  position: relative;
+}
+
+.icon-search-svg {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .icon-search-input {

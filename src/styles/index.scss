@@ -4,6 +4,7 @@
 .body {
   margin-inline: auto;
   max-width: $width-desktop-xl;
+  width: 100%;
   min-width: ($width-mobile - $margin-mobile * 2);
 
   font-family: $font-primary;
