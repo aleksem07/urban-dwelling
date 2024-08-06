@@ -5,7 +5,7 @@ section.search
       li.search-item
         if product.sale
           div.search-item-promotion Акция
-        img.search-item-img(src=product.img)
+        img.search-item-img(src=product.img alt=product.name)
         p.search-item-title= product.name
         if product.sale
           .search-sale.sale
