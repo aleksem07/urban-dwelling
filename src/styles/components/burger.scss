@@ -1,7 +1,7 @@
 .burger {
   display: none;
-
-  width: 24px;
+  margin-right: 9px;
+  width: 23px;
   height: 2px;
   background-color: $color-dark;
   position: relative;
@@ -11,7 +11,7 @@
   &::after {
     content: "";
     position: absolute;
-    width: 24px;
+    width: 23px;
     height: 2px;
     background-color: $color-dark;
     left: 0;
@@ -27,5 +27,9 @@
 
   @media (max-width: ($width_desktop-xl - 1px)) {
     display: block;
+  }
+
+  @media (min-width: ($width-desktop-s)) {
+    display: none;
   }
 }

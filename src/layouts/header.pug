@@ -1,11 +1,11 @@
 header.header
   .header-container
-    include /layouts/components/logo.pug
+    +logo('header', "#ffffff")
     nav.header-nav.nav
-      
-      ul.nav-ist
-        - for (var x = 0; x < 4; x++)
-          li.nav-item nav-item 
-          
+      ul.nav-list
+        each page in pages
+          li.nav-item
+            a(href="/")= page.toUpperCase()
+
     include /layouts/components/burger.pug
-      
+    include /layouts/components/user-icons.pug

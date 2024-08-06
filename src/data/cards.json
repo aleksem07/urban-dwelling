@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "img": "mir.svg",
+      "title": "mir"
+    },
+    {
+      "img": "visa.svg",
+      "title": "visa"
+    },
+    {
+      "img": "master-card.svg",
+      "title": "master-card"
+    }
+  ]
+}

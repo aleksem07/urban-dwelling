@@ -1,0 +1,19 @@
+.add-panel {
+  display: none;
+
+  @media (min-width: ($width-desktop-s)) {
+    display: block;
+    width: 100%;
+    background-color: $color-title;
+    color: $color-light;
+  }
+}
+
+.add-panel-list {
+  @media (min-width: ($width-desktop-s)) {
+    padding-block: 12px;
+    @include flex(flex-end, center);
+    column-gap: 70px;
+    line-height: 100%;
+  }
+}
