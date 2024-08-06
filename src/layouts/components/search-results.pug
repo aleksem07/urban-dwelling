@@ -5,9 +5,9 @@ section.search
       li.search-item
         if product.sale
           div.search-item-promotion Акция
+        img.search-item-img(src=product.img alt=product.name)
         .search-item--background
           button.search-item-button Подробнее
-        img.search-item-img(src=product.img alt=product.name)
         p.search-item-title= product.name
         if product.sale
           .search-sale.sale
